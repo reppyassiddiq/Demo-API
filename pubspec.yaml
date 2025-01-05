@@ -1,0 +1,30 @@
+name: demo_api
+description: A new Flutter project.
+
+publish_to: "none"
+
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  cupertino_icons: ^1.0.8
+  lottie: ^2.3.2
+  google_fonts: ^4.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/berawan.json
+    - assets/deras.json
+    - assets/terik.json
+    - assets/berawan.png
+    - assets/terik.png
+    - assets/deras.png
